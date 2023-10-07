@@ -1,0 +1,504 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+button {
+    border: none;
+}
+.header{
+    
+  
+}
+
+.group1 {
+    position: relative;
+    left: -40px;
+    bottom: 500px;
+}
+.group2 {
+    position: relative;
+    top: 0px;
+    right: 100px;
+}
+.group3-1 {
+    position: relative;
+ right: -480px;
+ top: -400px;
+}
+.group4-1 {
+    position: relative;
+    bottom: 620px;
+    right: -380px;
+}
+.adamimg {
+    position: relative;
+    bottom: 400px;
+}
+.dots {
+    position: relative;
+    right: -300px;
+    top: -360px;
+}
+.plus3 {
+    position: relative;
+    top: -10px;
+    right: -100px;
+}
+.plus {
+    position: relative;
+ bottom: 340px;
+ right: -300px;
+}
+.menu {
+    position: relative;
+    top: -450px;
+    right: -340px;
+}
+.line {
+    position: relative;
+    bottom: 400px;
+    right: -390px;
+}
+.line2 {
+    position: relative;
+    right: -20px;
+    bottom: 170px;
+    
+}
+#hero {
+    position: relative;
+    bottom: 300px;
+}
+#creative {
+    position: relative;
+    bottom: 300px;
+}
+#test {
+    position: relative;
+    bottom: 150px;
+}
+#clnt {
+    position: relative;
+    bottom: 200px;
+}
+.line3
+{
+    position:relative;
+    right: 590px;
+    bottom: 130px;
+
+}
+.vbn{
+    margin: 50px 0 100px 0 ;
+}
+.vbn a {
+position: relative;
+left: 100px;
+
+}
+.Adam {
+ position: relative;
+ left: 500px;
+ 
+}
+.group {
+    position: absolute;
+    left: 1000px;
+top: -200px;
+    
+} 
+.vbn a {
+    color: #7E7F86;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: 2s;
+}
+.vbn a:hover {
+    color: #25202F;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.header h1 span {
+    color: #666;
+font-size: 24px;
+font-weight: 500;
+line-height: 28.8px ; /* */
+}
+.header h1 {
+    color: #25202F;
+font-size: 45px;
+font-weight: 700;
+
+}
+.header p {
+    color: #403f44;
+font-size: 24px;
+font-weight: 400;
+margin: 30px 0 ;
+}
+.header button {
+    border-radius: 100px;
+background: #8643DC;color: #FFF;
+font-size: 14px;
+font-weight: 500;
+padding: 10px 35px;
+}
+.hero {
+    display: flex;
+    
+}
+.img-h3 {
+    display: flex;
+    align-items: center;
+    
+}
+.img-h3 {
+    color: #25202F;
+font-size: 20px;
+font-weight: 400;
+margin: 0  0 20px 0;
+}
+.block-1 {
+    color: #47444E;
+font-size: 16px;
+font-weight: 400;
+line-height: 200%; /*  */
+}
+.h1h1 {
+    margin: 55px 0;
+}
+.block-1 {
+    margin: 0 30px 0 0 ;
+    margin: 30px;
+}
+.ph p {
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0;
+position: relative;
+}
+.ph p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 40px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.span1 {
+float: right;
+}
+.imgzxc {
+    display:flex ;
+}
+.creative p {
+    color: #8643DC;
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+}
+.creative p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 45px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.span1 {
+ color: #25202F;
+font-size: 24px;
+font-weight: 500;
+text-decoration-line: underline;   
+}
+.creative {
+    margin-top: 130px;
+}
+.creative h1 {
+    margin: 30px 0;
+}
+.blockblock{
+  display: flex;
+ justify-content: space-between;
+ border-radius: 10px;
+border: 1px;
+
+}
+.blockblock h4 {
+    color: #000;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+margin-top: 15px;
+}
+.blockblock button {
+    border-radius: 10px;
+border: 1px;
+width: 170px;
+height: 170px;
+}
+.btn0 {
+    border-radius: 10px;
+border: 1px solid #FFE7F0;
+background: #FFF6FA;
+}
+.btn1 {
+    border-radius: 10px;
+border: 1px solid #CAFFE1;
+background: #EDFFF5;
+}
+.btn2 {
+    border-radius: 10px;
+border: 1px solid #DDF5FF;
+background: #F5FCFF;
+}
+.btn3 {
+    border-radius: 10px;
+border: 1px solid #FFEEC9;
+background: #FFFBF2;
+}
+.btn4 {
+    border-radius: 10px;
+border: 1px solid #DBFFC3;
+background: #F4FFED;
+}
+.cltn p {
+    color: #8643DC;
+font-size: wad18px;
+font-weight: 400;
+position: relative;
+}
+.cltn p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 40px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.cltn h1 {
+    margin:  30px  0;
+}
+.qt p {
+    color: #636066;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 200%; /* % */
+}
+
+.qt img {
+    
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+
+}
+.test p {
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+margin-top: 130px;
+position: relative;
+}
+.test p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 50px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.test h1 {
+    margin:  20px 0;
+}
+.qt  p {
+ margin: 15px 0;
+}
+.qt h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.a1 {
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+mix-blend-mode: luminosity;
+}
+
+.peaple {
+    position: relative;
+    bottom: 300px;
+    left: 20px;
+}
+.p2 {
+    position: relative;
+    bottom: 140px;
+    right: -170px;
+}
+.p3 {
+    position: relative;
+    bottom: 135px;
+    right: -1030px;
+}
+.p4 {
+    position: relative;
+    right: -1100px;
+    bottom: 390px;
+}
+.pager {
+    position: relative;
+    top: 50px;
+}
+.blog {
+    display: flex;
+    position: relative;
+    bottom: 117px;
+}
+.imgblog {
+    flex-direction: column;
+    
+}
+.blog2 {
+    margin: 0 25px ;
+}
+.blog {
+    display: flex;
+    justify-content: center; /* Выравнивание по горизонтали по центру */
+}
+
+.v p {
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+margin: 20px 0;
+position: relative;
+}
+.v p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 30px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.imgblog p {
+    color: #8643DC;
+font-size: 16px;
+font-weight: 500;
+margin:  10px 0 ;
+}
+.cntn h3 {
+    position: relative;
+    left: 300px;
+}
+.right {
+    margin-left: 800px;
+    color: #8643DC;
+    font-size: 18px;
+    font-weight: 400;
+    color: #8643DC;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration-line: underline;   
+    
+}
+.qe   {
+    color: #8643DC;
+font-size: 18px;
+font-weight: 400;
+margin-bottom: 10px;
+position: relative;
+}
+.qe::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 45px; /* Ширина линии (по желанию) */
+    height: 2px; /* Толщина линии (по желанию) */
+    background: #8643DC; 
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+.pqe p {
+    color: #A8A0B0;
+font-size: 20px;
+font-weight: 400;
+margin:  40px 0;
+position: relative;
+}
+.pqe p::after {
+    content: ""; /* Пустой контент для создания псевдоэлемента */
+    display: block;
+    width: 1000px; /* Ширина линии (по желанию) */
+    height: 1px; /* Толщина линии (по желанию) */
+    background: #DAD2E3;
+    position: absolute;
+    margin-top: 10px;
+    left: 0;
+  }
+  .cntc h2 {
+    color: #21232D;
+font-size: 36px;
+font-weight: 600;
+line-height: 144.444%; /*  */
+  }
+.cntc {
+    margin-top: 60px;
+}
+.button button {
+    border-radius: 100px;
+background: #8643DC;color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 500;
+padding: 15px 40px;
+}
+.button {
+    display: flex;
+    align-items: center;
+}
+.button h3 {
+    margin-left: 880px;
+}
+.footer h1 {
+    text-align: center;
+    margin: 30px;
+    color: #21232D;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+.footer img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+
+}
+.footer {
+    margin-top: 80px;
+}
